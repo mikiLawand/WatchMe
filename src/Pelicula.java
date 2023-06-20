@@ -1,12 +1,12 @@
 
 public class Pelicula {
-    
+
     String titulo;
     String categoria;
     Integer lancamento;
     Integer duracao;
     String genero;
-    
+
     public String getTitulo() {
         return titulo;
     }
@@ -60,8 +60,5 @@ public class Pelicula {
         return "Pelicula [titulo=" + titulo + ", categoria=" + categoria + ", anoLancamento=" + lancamento
                 + ", duracao=" + duracao + ", genero=" + genero + "]";
     }
-    
-
-    
 
 }
